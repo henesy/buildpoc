@@ -1,6 +1,6 @@
 // +build ignore
 
-package build-poc
+package mypkg
 
 import (
 	"syscall"

@@ -1,5 +1,5 @@
 // +build linux
-package build-poc
+package mypkg
 
 import (
 	"syscall"
