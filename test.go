@@ -9,6 +9,7 @@ import (
 func main() {
 	fmt.Println("test follows")
 	fi, err := os.Lstat("test.go")
-	FillSystemInfo(fi.Sys())
+	mypkg.FillSystemInfo(fi.Sys())
+	fmt.Println(err)
 }
 
