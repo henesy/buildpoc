@@ -1,4 +1,4 @@
-package mypkg
+package build-poc
 
 var FillSystemInfo func(sys interface{})
 
